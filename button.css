@@ -66,7 +66,7 @@ font-size: 12pt;
 resize: none;
 font-family: 'MontserratRegular', sans-serif;
 font-weight: 200;
-}
+} 
 .InsertNewItem .TitleItem{
 border: none;
 height: 30px;
@@ -86,8 +86,6 @@ outline:none
 .Button{
   display: flex;
   border: none;
-  
-  border-radius: 15px;
   height: 30px;
   width: 30px;
   margin-left: 6px;
@@ -101,7 +99,7 @@ img{
   height: 20px;
   width: 20px;
   margin: auto;
-  border-radius: 10px;
+  
 }
 .Icon{
   height: 30px;
