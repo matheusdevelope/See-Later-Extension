@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
     const ListaLocal = localStorage.getItem("ListaItem")
     const ListaExcludesLocal = localStorage.getItem("ListaExcludes")
