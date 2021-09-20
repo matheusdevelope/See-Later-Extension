@@ -1,0 +1,3 @@
+não funciona na V3 ------
+yarn add crx-hotreload 
+------força o reload quando salvar

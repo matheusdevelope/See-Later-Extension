@@ -1,0 +1,110 @@
+@font-face { font-family: Montserrat; src: url('Montserrat-ExtraBold.ttf'); }
+@font-face { font-family: MontserratRegular; src: url('Montserrat-Regular.ttf'); }
+body{
+    font-family: sans-serif;  
+    width: 400px;
+    height: 200px;
+    color: #CCD6F6;
+    border-radius: 10px;
+    border: 0;
+    padding: 0;
+    background-color: #0A192F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+  }
+  body::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: #0A192F;        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #CCD6F6;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+     /* creates padding around scroll thumb */
+  }
+  .ExtentionTitle{
+    display: flex;
+    font-size: 18pt;
+  margin: 8px 0; 
+  color:#CCD6F6 ;
+  justify-content: center;
+  }
+  .InsertNewItem{
+    display: flex;
+    width: 100%;
+    margin: 8px 0;
+    justify-content: space-between;
+  }
+.ItensList{
+display: flex;
+flex: 1;
+flex-direction: column;
+border-top: 1px solid #ccd6f6b2 ;
+}
+.ItemLista{
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin:4px 0;
+}
+.BoxInputs{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-right: 6px ;
+  border-radius: 15px;
+}
+.TitleItem{
+border: none;
+height: 40px;
+border-radius: 6px;
+outline:none;
+font-size: 12pt;
+resize: none;
+font-family: 'MontserratRegular', sans-serif;
+font-weight: 200;
+}
+.InsertNewItem .TitleItem{
+border: none;
+height: 30px;
+border-radius: 6px;
+outline:none;
+font-size: 12pt;
+resize: none;
+}
+.URL{
+  border: none;
+  height: 20px;
+  margin-top: 4px;
+  border-bottom-left-radius: 6px;
+border-bottom-right-radius: 6px;
+outline:none
+}
+.Button{
+  display: flex;
+  border: none;
+  
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  margin-left: 6px;
+  align-items: center;
+  justify-content: center;
+}
+.Buttons{
+display: flex;
+}
+img{
+  height: 20px;
+  width: 20px;
+  margin: auto;
+  border-radius: 10px;
+}
+.Icon{
+  height: 30px;
+  width: 30px;
+  margin: auto 4px auto 0;
+}
